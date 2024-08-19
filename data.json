@@ -1,0 +1,278 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "How are you?",
+                "Hey",
+                "Good morning",
+                "Good evening",
+                "What’s up?",
+                "Hi there",
+                "Hello there",
+                "Howdy",
+                "Hey there",
+                "Howdy partner",
+                "What’s going on?"
+            ],
+            "responses": [
+                "Hello! How are you feeling today?",
+                "Hi there! How can I assist you with your mental health today?",
+                "Hello! I'm here to listen. How are you doing?",
+                "Hey! What’s on your mind today?",
+                "Good to see you! How can I help?",
+                "Hi! How can I support you today?",
+                "Hello! What can I do for you right now?"
+            ]
+        },
+        {
+            "tag": "check_in",
+            "patterns": [
+                "How am I doing?",
+                "Can you check my mood?",
+                "How's my mental state?",
+                "Can you help me assess my mood?",
+                "I need to check in",
+                "How am I feeling?",
+                "Can you evaluate my emotions?",
+                "How’s my mental health?",
+                "I want to check my mental state",
+                "How do you think I'm doing?",
+                "Can you assess my well-being?",
+                "How is my emotional state today?",
+                "What’s the current status of my mood?"
+            ],
+            "responses": [
+                "Let's talk about how you're feeling. Can you describe your mood right now?",
+                "I'm here to help you assess how you're feeling. Can you tell me more about your current state?",
+                "Sure, let's discuss how you're doing. What emotions or thoughts are you experiencing today?",
+                "I’m here to listen. Share with me how you're feeling lately.",
+                "Tell me more about your feelings and thoughts today.",
+                "Please describe your mood so I can better understand how you're doing.",
+                "Can you provide more details about how you're feeling at the moment?"
+            ]
+        },
+        {
+            "tag": "stress",
+            "patterns": [
+                "I'm feeling stressed",
+                "I'm so overwhelmed",
+                "I have too much stress",
+                "I'm under a lot of pressure",
+                "I feel anxious",
+                "I can't handle this stress",
+                "My stress levels are high",
+                "I'm feeling really tense",
+                "There's too much on my plate",
+                "I'm struggling with stress",
+                "I feel overwhelmed with everything",
+                "Stress is affecting me badly",
+                "I’m dealing with a lot of stress right now"
+            ],
+            "responses": [
+                " Practice deep breathing exercises.",
+                " Take regular breaks throughout your day.",
+                " Engage in physical activity or exercise.",
+                " Try mindfulness or meditation.",
+                " Talk to a friend or family member about what's stressing you.",
+                " Set realistic goals and break tasks into smaller steps.",
+                " Ensure you're getting enough rest and maintaining a healthy diet."
+            ]
+        },
+        {
+            "tag": "depression",
+            "patterns": [
+                "I feel depressed",
+                "I'm feeling down",
+                "I have no energy",
+                "I’m struggling with sadness",
+                "I'm feeling hopeless",
+                "I feel empty inside",
+                "I can't seem to find joy",
+                "Everything seems gray",
+                "I'm just so low",
+                "I don't feel like doing anything",
+                "I'm battling with depression",
+                "I feel like giving up",
+                "I'm constantly feeling sad"
+            ],
+            "responses": [
+                " Try reading a comforting book or watching a favorite movie.",
+                " Engage in activities you used to enjoy, even if they don't feel enjoyable right now.",
+                " Reach out to a friend or loved one for support.",
+                " Practice a creative outlet like drawing or writing.",
+                " Consider finding a hobby that interests you.",
+                " Sometimes telling a light-hearted joke or story can help brighten your day.",
+                "Would you like to hear a joke or a story?"
+            ]
+        },
+        {
+            "tag": "anxiety",
+            "patterns": [
+                "I'm feeling anxious",
+                "I have anxiety",
+                "I’m worried about something",
+                "I can't stop thinking about it",
+                "I feel uneasy",
+                "I'm constantly on edge",
+                "I have racing thoughts",
+                "I feel nervous all the time",
+                "I'm experiencing a lot of anxiety",
+                "I'm overwhelmed with worry",
+                "I can’t relax",
+                "My anxiety is through the roof",
+                "I feel anxious about everything"
+            ],
+            "responses": [
+                " Practice deep breathing or progressive muscle relaxation.",
+                " Use mindfulness techniques to focus on the present moment.",
+                " Engage in physical exercise to help reduce anxiety.",
+                " Talk to someone you trust about what you're experiencing.",
+                " Try to identify and challenge irrational thoughts.",
+                " Consider writing down your worries and developing a plan to address them."
+            ]
+        },
+        {
+            "tag": "self_care",
+            "patterns": [
+                "How can I take care of myself?",
+                "What are some self-care tips?",
+                "Can you give me some advice on self-care?",
+                "How can I improve my well-being?",
+                "I need self-care ideas",
+                "What are good self-care practices?",
+                "How do I practice self-care?",
+                "Can you suggest ways to relax?",
+                "I’m looking for self-care suggestions",
+                "What should I do for self-care?",
+                "How can I better care for myself?",
+                "I want to improve my self-care routine",
+                "What are effective self-care methods?"
+            ],
+            "responses": [
+                " Establish a daily routine that includes time for relaxation.",
+                " Engage in physical activities that you enjoy.",
+                " Prioritize sleep and maintain a consistent sleep schedule.",
+                " Eat a balanced diet and stay hydrated.",
+                " Set aside time for hobbies and interests.",
+                " Practice mindfulness or meditation.",
+                " Take breaks when needed and avoid overworking.",
+                " Seek social support from friends and family.",
+                " Consider journaling to process your thoughts and emotions.",
+                " Schedule regular self-care activities like taking a bath or enjoying a quiet walk."
+            ]
+        },
+        {
+            "tag": "relationship",
+            "patterns": [
+                "I’m having relationship problems",
+                "My relationship is causing me stress",
+                "I feel disconnected from my partner",
+                "I’m struggling in my relationship",
+                "How can I improve my relationships?",
+                "I need help with relationship issues",
+                "My relationship is making me unhappy",
+                "I feel lonely in my relationship",
+                "How do I communicate better with my partner?",
+                "I’m having conflicts with someone close to me",
+                "My relationship is strained",
+                "I feel like my relationship is falling apart",
+                "I’m not happy in my relationship"
+            ],
+            "responses": [
+                " Communicate openly and honestly with your partner.",
+                " Set aside quality time for each other and prioritize your relationship.",
+                " Practice active listening and empathy.",
+                " Consider seeking couples counseling or therapy.",
+                " Work on resolving conflicts through calm discussions.",
+                " Show appreciation and acknowledge each other's efforts.",
+                " Focus on understanding each other's perspectives and needs."
+            ]
+        },
+        {
+            "tag": "joke",
+            "patterns": [
+                "Tell me a joke",
+                "Can you share a joke?",
+                "I need a laugh",
+                "Make me laugh",
+                "Do you know any jokes?",
+                "Tell me something funny",
+                "I want to hear a joke",
+                "Give me a joke",
+                "Can you tell a joke?",
+                "Share a joke with me"
+            ],
+            "responses": [
+                "Why don't scientists trust atoms? Because they make up everything!",
+                "I told my wife she was drawing her eyebrows too high. She looked surprised.",
+                "Why did the scarecrow win an award? Because he was outstanding in his field!",
+                "I told my computer I needed a break, and now it won’t stop sending me Kit-Kats.",
+                "Why don’t skeletons fight each other? They don’t have the guts."
+            ]
+        },
+        {
+            "tag": "story",
+            "patterns": [
+                "Tell me a story",
+                "Can you share a story?",
+                "I want to hear a story",
+                "Tell me a short story",
+                "Share a story with me",
+                "I need a story",
+                "Give me a story",
+                "Can you tell a story?",
+                "I’d love to hear a story",
+                "Share a tale",
+                "Tell me a bedtime story",
+                "I want to hear a tale",
+                "Tell me a fun story",
+                "Can you tell me a short story?",
+                "I’d like to hear a story",
+                "Share a story with me, please",
+                "Tell me an interesting story"
+            ],
+            "responses": [
+                "Once upon a time in a quiet village, there was a small, mysterious shop that sold magical items. One day, a curious child named Lily walked into the shop and discovered a talking cat who gave her a magical compass. The compass always pointed to the most exciting adventure. Lily followed the compass and ended up finding a hidden garden full of fantastical creatures and treasures. From that day on, every time she followed the compass, she had the most amazing adventures. The end!",
+                "Let me tell you a short story: In a bustling city, there was a tiny café known for its incredible pastries. One day, a young baker named Sam started working there. Despite the busy environment, Sam found joy in baking and always tried to create new and unique treats. His passion soon caught the attention of everyone in the city, and the café became the most popular spot for delicious pastries and warm smiles. And Sam learned that following your passion can lead to sweet success.",
+                "Here's a story for you: In a forest far away, there was a wise old owl who lived in a grand oak tree. Every evening, animals from all over the forest would come to seek the owl's advice. One day, a young squirrel named Nutmeg arrived, feeling uncertain about her future. The owl listened carefully and then told Nutmeg that the key to finding her path was to believe in herself and to embrace her unique qualities. Nutmeg took the owl's advice to heart and soon became the most adventurous squirrel in the forest. The end!",
+                "Once there was a brave little mouse named Oliver who lived in a cozy burrow. One day, Oliver found a tiny, shiny key while exploring the meadow. He wondered what the key unlocked and decided to find out. After a long search, he discovered a hidden chest beneath an old tree. Inside, he found a magical map that led to a hidden land of cheese. Oliver's discovery made him the hero of the meadow, and he shared the land of cheese with all his friends. And they all lived happily ever after.",
+                "Here’s a short story: In a small seaside town, there was a lighthouse that had stood for generations. One night, during a powerful storm, the light in the lighthouse went out. A brave young sailor named Ella decided to climb to the top and relight the beacon. Despite the howling winds and crashing waves, she managed to restore the light just in time to guide a lost ship safely to shore. The town celebrated Ella's courage, and she became a local legend for her bravery. The end!"
+            ]
+        }, 
+        {
+            "tag": "bye",
+            "patterns": [
+                "Goodbye",
+                "See you later",
+                "Bye",
+                "Take care",
+                "See you soon",
+                "Catch you later",
+                "Farewell",
+                "I’m leaving now",
+                "Talk to you later",
+                "Have a great day",
+                "See you next time",
+                "Bye for now",
+                "I’m heading out",
+                "Good night",
+                "Until next time"
+            ],
+            "responses": [
+                "Goodbye! Take care and have a great day!",
+                "See you later! If you need anything else, feel free to reach out.",
+                "Bye! It was nice talking with you. Have a wonderful day!",
+                "Farewell! I hope you feel better soon. Take care!",
+                "Catch you later! Don’t hesitate to come back if you need more support.",
+                "Until next time! Wishing you all the best.",
+                "Goodbye! I’m here whenever you need me. Have a great day!",
+                "Take care! I hope everything goes well for you.",
+                "Bye for now! Have a fantastic day ahead.",
+                "See you next time! Remember, I’m just a message away if you need help."
+            ]
+        }        
+    ]
+}
